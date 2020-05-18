@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gmall-common-util" />
+        <module name="fastdfs-client-java" />
+        <module name="gmall-manage-web" />
+        <module name="gmall-item-web" />
+        <module name="gmall-bean" />
+        <module name="gmall-manage-service" />
+        <module name="gmall-user-manage" />
+        <module name="gmall-interface" />
+        <module name="gmall-web-util" />
+        <module name="gmall-service-util" />
+        <module name="gmall-order-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fastdfs-client-java" target="1.6" />
+      <module name="gmall-bean" target="1.8" />
+      <module name="gmall-common-util" target="1.8" />
+      <module name="gmall-interface" target="1.8" />
+      <module name="gmall-item-web" target="1.8" />
+      <module name="gmall-manage-service" target="1.8" />
+      <module name="gmall-manage-web" target="1.8" />
+      <module name="gmall-order-web" target="1.8" />
+      <module name="gmall-parent" target="1.8" />
+      <module name="gmall-service-util" target="1.8" />
+      <module name="gmall-user-manage" target="1.8" />
+      <module name="gmall-web-util" target="1.8" />
+      <module name="gmallbean" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gmall-manage-service" options="" />
+      <module name="gmall-manage-web" options="" />
+      <module name="gmall-order-web" options="" />
+      <module name="gmall-user-manage" options="" />
+    </option>
+  </component>
+</project>
